@@ -1,0 +1,126 @@
+package Container;
+
+import Interface.QueueSpecs;
+
+public class StackQ<E> implements QueueSpecs<E>{
+	
+	private LLStack<E> enQStack;
+	private LLStack<E> deQStack;
+	private LLStack<E> tempStack;
+	
+	public StackQ() {
+		enQStack = new LLStack<E>();
+		deQStack = new LLStack<E>();
+		tempStack = new LLStack<E>();
+	}
+	
+	public int length() {
+		enQStack.getStackSize();
+		return enQStack.getStackSize();
+	}
+	
+	
+	@Override
+	public boolean isEmpty() {
+		 if (enQStack.isEmpty() && deQStack.isEmpty()) {
+	            System.out.println("a");
+	            return true;
+	        }
+	        System.out.println("b");
+	        return false;
+	}
+
+	@Override
+	public void emptyQueue() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void enQ(E obj) {
+		// TODO Auto-generated method stub
+		enQStack.push(obj);
+		
+	}
+
+	@Override
+	public E deQ() {
+		// TODO Auto-generated method stub
+		if(deQStack.isEmpty()) {
+			if(enQStack.isEmpty()) {
+				System.out.print("\nStack is empty");
+				return deQStack.pop();
+			}
+			else
+			while(!enQStack.isEmpty())
+				deQStack.push(enQStack.pop());
+			System.out.print("\nStack dequeued");
+			return deQStack.pop();
+		}
+		System.out.print("\nStack is empty");
+		return deQStack.pop();
+	}
+
+	@Override
+	public E peek() {
+		// TODO Auto-generated method stub
+		
+		if (!enQStack.isEmpty()) {
+			System.out.print("\nTop: " + enQStack.peek());
+		} else
+			System.out.print("\nStack is empty");
+		return null;
+	}
+	
+	@Override
+	public String toString(){
+		LLStack<E> enQStack = this.enQStack;
+		StringBuilder str = new StringBuilder();
+		if (enQStack.isEmpty()) {
+			System.out.println("\nStack is empty");
+			return str.toString();
+		}
+		System.out.println("\nQueue:");
+		while (!enQStack.isEmpty()) {
+			return enQStack.toString();
+		}
+		return str.toString();
+	}
+	
+	public String toString1(){
+		LLStack<E> dequeue = this.deQStack;
+		StringBuilder str = new StringBuilder();
+		System.out.println("\ndeQStack: ");
+		if(dequeue.isEmpty()) {
+			System.out.print("Stack is empty");
+			return str.toString();
+		}
+		if (!dequeue.isEmpty()) {
+			return deQStack.toString();
+		}
+		return str.toString();
+	}
+	
+	public String toString2(){
+		LLStack<E> enqueue = this.enQStack;
+		LLStack<E> dequeue = this.deQStack;
+		StringBuilder str = new StringBuilder();
+		System.out.println("\nenQStack: ");
+		if(enqueue.isEmpty()) {
+			System.out.println("Stack is empty");
+			return str.toString();
+		}
+		if (!enqueue.isEmpty()) {
+			return enQStack.toString();
+		}
+		while (!enqueue.isEmpty() && !dequeue.isEmpty()) {
+			
+//			tempStack.push(deQStack.pop());
+//			deQStack.push(enQStack.pop());
+//			enQStack.push(tempStack.pop());
+			
+			return enQStack.toString();
+		}
+		return str.toString();
+	}
+}

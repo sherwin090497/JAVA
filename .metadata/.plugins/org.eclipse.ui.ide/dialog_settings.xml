@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\JAVA\CS310 Homework2"/>
+			<item value="C:\JAVA\CS Projects\Program 4 (Phone)"/>
+			<item value="C:\JAVA\Binary Search"/>
+			<item value="C:\JAVA\MyHashTable"/>
+			<item value="C:\JAVA\GCD Calculator"/>
+			<item value="C:\JAVA\WordScramble"/>
+			<item value="C:\JAVA\Fibonacci Sequence"/>
+			<item value="C:\JAVA\Practice"/>
+			<item value="C:\JAVA\ArraySorter"/>
+			<item value="C:\JAVA\EmployeeRecords"/>
+			<item value="C:\JAVA\IntelliJ\EmployeeRecords"/>
+			<item value="C:\JAVA\Crypting"/>
+			<item value="C:\JAVA\PracticeOne"/>
+			<item value="C:\JAVA\PracticeOne\src"/>
+			<item value="C:\JAVA\Encrypt And Decrypt"/>
+			<item value="C:\JAVA\Factorial"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+		</list>
+	</section>
+</section>

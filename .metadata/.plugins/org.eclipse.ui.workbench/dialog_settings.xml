@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.jdt.internal.ui.fatjarpackager.JarPackageWizard"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.equinox.p2.category"/>
+			<item value="org.eclipse.jdt.ui.Java"/>
+			<item value="org.eclipse.debug.ui"/>
+			<item value="org.eclipse.mylyn.tasks.ui.wizards.export.category"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="7"/>
+		<item key="DIALOG_Y_ORIGIN" value="179"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.fx.ide.jdt.ui.javafx"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.fx.ide"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="true"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\JAVA\BinarySearchTree\EC4.jar"/>
+			<item value="C:\Users\sherw\Downloads\BST.jar"/>
+			<item value="C:\JAVA\CS310 PA2\PA2.jar"/>
+			<item value="C:\JAVA\CS310 PA2\SortingProjectAssignment2.jar"/>
+			<item value="C:\JAVA\CS310 PA2\SortingProject.jar"/>
+			<item value="C:\Users\sherw\Downloads\PA2Template (1).jar"/>
+			<item value="C:\Users\sherw\Downloads\PA2Template.jar"/>
+			<item value="C:\Users\sherw\Downloads\PQ (1).jar"/>
+			<item value="C:\Users\sherw\Downloads\CircLLTemplate (1).jar"/>
+			<item value="C:\Users\sherw\Downloads\LinkedLists (1).jar"/>
+			<item value="C:\Users\sherw\Downloads\PQ.jar"/>
+			<item value="C:\JAVA\HW PA 1.jar"/>
+			<item value="C:\Users\sherw\Downloads\PA1Template (1).jar"/>
+			<item value="C:\Users\sherw\Downloads\PA1Template.jar"/>
+			<item value="C:\JAVA\CS310 Homework1\HW1.jar"/>
+			<item value="C:\Users\sherw\Downloads\LinkedLists.jar"/>
+			<item value="C:\Users\sherw\Downloads\LLQueueTemplate.jar"/>
+			<item value="C:\Users\sherw\Downloads\CircLLTemplate.jar"/>
+			<item value="C:\Users\sherw\Downloads\HW1Template.jar"/>
+			<item value="C:\JAVA\JAR Files\HW_Sherwin_Labadan.jar"/>
+		</list>
+	</section>
+</section>
